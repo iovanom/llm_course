@@ -1,0 +1,26 @@
+[
+    {
+        "model":"gemma4:latest",
+        "tuned":false,
+        "factual_exact":0.6666666667,
+        "factual_partial":0.6666666667,
+        "math_acc":1.0,
+        "steps_rate":0.5,
+        "ttft_ms":67902.3401618004,
+        "tps":8.4384865512,
+        "ref_ppl":889.2096525192,
+        "gen_tokens":331.65
+    },
+    {
+        "model":"gemma4:latest",
+        "tuned":true,
+        "factual_exact":0.75,
+        "factual_partial":0.7777777778,
+        "math_acc":1.0,
+        "steps_rate":0.75,
+        "ttft_ms":58492.9485678673,
+        "tps":8.1308425717,
+        "ref_ppl":933.6348993301,
+        "gen_tokens":310.05
+    }
+]
